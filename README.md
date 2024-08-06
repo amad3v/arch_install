@@ -174,3 +174,9 @@ mkdir "$HOME/.local/bin"
 # Update .zshrc
 echo 'export PATH=$PATH:"$HOME/.local/bin"' >> ${ZDOTDIR:-$HOME}/.zshrc
 ```
+
+### Uniform cursors
+
+Open `/usr/share/icons/default/index.theme`
+
+Change `Inherits=Adwaita` to `Inherits=<cursor's name>`
